@@ -1268,7 +1268,6 @@
 				88C5A02816924BFC0045EF05 /* RACMulticastConnectionSpec.m */,
 				D0EDE76516968AB10072A780 /* RACPropertySignalExamples.h */,
 				D0EDE76616968AB10072A780 /* RACPropertySignalExamples.m */,
-				8803C010166732BA00C36839 /* RACSchedulerSpec.m */,
 				D0C70F8F164337A2007027B4 /* RACSequenceAdditionsSpec.m */,
 				D0C70F91164337E3007027B4 /* RACSequenceExamples.h */,
 				D0C70F92164337E3007027B4 /* RACSequenceExamples.m */,
@@ -1852,7 +1851,7 @@
 			name = "ReactiveCocoa-iOS-UIKitTestHostTests";
 			productName = "ReactiveCocoa-iOS-UIKitTestHostTests";
 			productReference = 1860F430177C91B500C7B3C9 /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		5FAF5222174D4C2000CAC810 /* ReactiveCocoaTests-iOS */ = {
 			isa = PBXNativeTarget;
@@ -2794,6 +2793,7 @@
 			baseConfigurationReference = D094E45817775B1000906BF7 /* Test.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "Anonymous McNemo";
 				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
@@ -2859,6 +2859,7 @@
 			baseConfigurationReference = D094E45517775B1000906BF7 /* Debug.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "Anonymous McNemo";
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -2879,6 +2880,7 @@
 			baseConfigurationReference = D094E45717775B1000906BF7 /* Release.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "Anonymous McNemo";
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -3007,6 +3009,7 @@
 			baseConfigurationReference = D094E45617775B1000906BF7 /* Profile.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "Anonymous McNemo";
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
